@@ -1,5 +1,14 @@
 [
   {
+    "titulo": "O caso Twitter/X: algoritmo, espaço público e ultraliberalismo digital",
+    "autores": [
+      "Ettore Schimid Batalha",
+      "Jefferson Ribeiro da Silva",
+      "Bruno Daniel Vendruscolo Espinosa Velásquez"
+    ],
+    "ano": 2025
+  },
+  {
     "titulo": "Escrita acadêmica ética, responsável e humana com inteligência artificial",
     "autores": [
       "Rafael Cardoso Sampaio"
@@ -14,14 +23,5 @@
       "Rui Nunes"
     ],
     "ano": 2026
-  },
-  {
-    "titulo": "O caso Twitter/X: algoritmo, espaço público e ultraliberalismo digital",
-    "autores": [
-      "Ettore Schimid Batalha",
-      "Jefferson Ribeiro da Silva",
-      "Bruno Daniel Vendruscolo Espinosa Velásquez"
-    ],
-    "ano": 2025
   }
 ]
