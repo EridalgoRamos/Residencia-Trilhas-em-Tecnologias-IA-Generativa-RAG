@@ -1,0 +1,95 @@
+{
+  "document": "llama_foundation_models.pdf",
+  "experiments": [
+    {
+      "test_id": 1,
+      "strategy": "Fixo_200_sem_overlap",
+      "chunk_size": 200,
+      "chunk_overlap": 0,
+      "num_chunks": 626,
+      "avg_chunk_size": 145.09,
+      "embedding_dimension": 384
+    },
+    {
+      "test_id": 2,
+      "strategy": "Fixo_500_sem_overlap",
+      "chunk_size": 500,
+      "chunk_overlap": 0,
+      "num_chunks": 260,
+      "avg_chunk_size": 351.64,
+      "embedding_dimension": 384
+    },
+    {
+      "test_id": 3,
+      "strategy": "Fixo_1000_sem_overlap",
+      "chunk_size": 1000,
+      "chunk_overlap": 0,
+      "num_chunks": 119,
+      "avg_chunk_size": 771.08,
+      "embedding_dimension": 384
+    },
+    {
+      "test_id": 4,
+      "strategy": "Fixo_2000_sem_overlap",
+      "chunk_size": 2000,
+      "chunk_overlap": 0,
+      "num_chunks": 52,
+      "avg_chunk_size": 1768.46,
+      "embedding_dimension": 384
+    },
+    {
+      "test_id": 5,
+      "strategy": "Fixo_500_overlap_50",
+      "chunk_size": 500,
+      "chunk_overlap": 50,
+      "num_chunks": 264,
+      "avg_chunk_size": 356.05,
+      "embedding_dimension": 384
+    },
+    {
+      "test_id": 6,
+      "strategy": "Fixo_500_overlap_200",
+      "chunk_size": 500,
+      "chunk_overlap": 200,
+      "num_chunks": 286,
+      "avg_chunk_size": 386.07,
+      "embedding_dimension": 384
+    },
+    {
+      "test_id": 7,
+      "strategy": "Por_paragrafo",
+      "chunk_size": "paragrafo",
+      "chunk_overlap": 0,
+      "num_chunks": 68,
+      "avg_chunk_size": 1351.13,
+      "embedding_dimension": 384
+    },
+    {
+      "test_id": 8,
+      "strategy": "Sentencas_agrupadas_3",
+      "chunk_size": "3_sentencas",
+      "chunk_overlap": 0,
+      "num_chunks": 295,
+      "avg_chunk_size": 309.87,
+      "embedding_dimension": 384
+    },
+    {
+      "test_id": 9,
+      "strategy": "Recursivo_Hierarquico",
+      "chunk_size": 1000,
+      "chunk_overlap": 100,
+      "num_chunks": 120,
+      "avg_chunk_size": 778.71,
+      "embedding_dimension": 384
+    },
+    {
+      "test_id": 10,
+      "strategy": "Markdown_Semantico",
+      "chunk_size": "secao_markdown",
+      "chunk_overlap": 0,
+      "num_chunks": 51,
+      "avg_chunk_size": 1758.37,
+      "embedding_dimension": 384
+    }
+  ]
+}
