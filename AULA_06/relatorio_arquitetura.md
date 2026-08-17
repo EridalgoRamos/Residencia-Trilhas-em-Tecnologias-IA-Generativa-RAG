@@ -1,4 +1,4 @@
-# Projeto de arquitetura rag: Cenários de inteligência de ameaças e análise de apólices
+# Projeto de arquitetura rag: cenários de inteligência de ameaças e análise de apólices
 
 ## Parte 1 - Identificação dos problemas
 
